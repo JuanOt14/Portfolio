@@ -1,9 +1,12 @@
 .o-body{
-    background-color: #272643;
+    background-image: linear-gradient(to bottom left, #272643, #2C698D);
 }
 
 .o-home-content{
     padding: 1em 1em 1em 1em;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
 }
 
 .o-intro{
@@ -13,9 +16,18 @@
     align-items: center;
 }
 
+.o-ph-content{
+    width: 25rem;
+    height: 25rem;
+    background-color: #BAE8E8;
+    border-radius: 50%;
+    overflow: hidden;
+    z-index: 2;
+}
+
 #ph-profile{
-    width: 300px;
-    height: 300px;
+    width: 25rem;
+    height: auto;
     object-fit: cover;
 }
 
@@ -26,4 +38,12 @@
     margin-left: -5rem;
     border-radius: 0 2em 2em 0;
     z-index: 1;
+}
+
+.o-profile-content{
+    background-color: #E3F6F5;
+    width: auto;
+    margin: 2rem auto;
+    padding: 2em;
+    border-radius: 2rem;
 }

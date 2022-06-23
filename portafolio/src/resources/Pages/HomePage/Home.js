@@ -1,6 +1,6 @@
 import './Home.css';
 import Header from '../../Components/Header/header';
-import profile from '../../Images/1.png';
+import profilePH from '../../Images/1.png';
 
 const Home = () => {
     return (
@@ -8,11 +8,16 @@ const Home = () => {
             <Header/>
             <div className='o-home-content'>
                 <div className='o-intro'>
-                    <image src={profile} alt='profile' id='ph-profile'/>
+                    <div className='o-ph-content'>
+                        <img src={profilePH} alt='PHprofile' id='ph-profile'/>
+                    </div>
                     <div className='o-intro-text'>
-
+                        
                     </div>
                 </div>
+                <section className='o-profile-content'>
+                    hola mundo
+                </section>
             </div>
         </div>
     )

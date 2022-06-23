@@ -1,0 +1,18 @@
+.o-card-project{
+    width: 50rem;
+    margin: 2rem auto;
+    padding: 0 0 0 2em;
+    color: #2C698D;
+    background-color: #BAE8E8;
+    border-radius: 2rem;
+    overflow: hidden;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ph-card{
+    width: 18rem;
+    height: 12rem;
+    margin: 0 0 0 1em;
+    object-fit: cover;
+}
