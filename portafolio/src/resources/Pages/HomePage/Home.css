@@ -35,9 +35,13 @@
     width: 25rem;
     height: 15rem;
     background-color: #E3F6F5;
+    color: #2C698D;
     margin-left: -5rem;
     border-radius: 0 2em 2em 0;
+    padding: 1em 3em 1em 1em;
     z-index: 1;
+    text-align: right;
+    text-justify: distribute;
 }
 
 .o-profile-content{
