@@ -1,6 +1,5 @@
 import './Home.css';
 import Header from '../../Components/Header/header';
-//import Nav from '../../Components/NavList/Nav';
 import profilePH from '../../Images/1.png';
 import { profileData } from '../../data/profile';
 
